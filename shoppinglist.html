@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        background-color: cornflowerblue;
+    }
+    .subhead{
+        display: flex;
+        gap: 20px;
+    }
+    h2{
+        text-align: center;
+    }
+    #myInput{
+        margin-left: 600px;
+    }
+    input{
+        width: 300px;
+        border-radius: 8px;
+        background-color: burlywood;
+    }
+    button{
+        background-color: aqua;
+        border-radius: 5px;
+    }
+    ul{
+        text-align: center;
+    }
+    #myItem{
+        list-style-position: inside;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    #myitem li{
+        margin-bottom: 8px;
+    }
+</style>
+
+<body>
+    <h2>🛍️ Eid Shopping List</h2> <br> <br>
+
+    <div class="subhead">
+     
+    <div class="cotainer">
+    <h4>👗 Clothes & Accessories</h4>
+    <li>New outfit (shalwar kameez / panjabi / saree / kurta / abaya)</li>
+    <li>Shoes or sandals</li>
+    <li>Bangles or bracelets</li>
+    <li>Hijab / scarf / cap</li>
+    <li>Jewelry</li>
+    <li>Perfume / attar</li>
+    </div>
+
+    <div class="container">
+
+    <h4>🍛 Food & Groceries</h4>
+    <li>Rice</li>
+    <li>Meat (chicken, mutton)</li>
+    <li>Milk</li>
+    <li>Suagr</li>
+    <li>vermicelli (shemai)</li>
+    <li>Ghee or oil</li>
+    <li>Dry fruits (dates, almonds, pistachios, raisins)</li>
+    <li>Flour / semolina (for desserts)</li>
+    <li>Spices (cardamom, cinnamon, etc.)</li>
+    <li>Yogurt / cream</li>
+
+    </div>
+
+    <div class="container">
+
+    <h4>🎁 Gifts & Eidi</h4>
+    <li>Toys or games for kids</li>
+    <li>Gift cards</li>
+    <li>Chocolates</li>
+    <li>Eidi envelopes</li>
+    <li>Decorative wrapping paper</li>
+
+    </div>
+
+    <div class="conatainer">
+
+    <h4>🏠 Home Decor</h4>
+    <li>New bedsheets or curtains</li>
+    <li>Tablecloth / dining set</li>
+    <li>Candles or fairy lights</li>
+    <li>Fresh flowers</li>
+    <li>Eid Mubarak banner or sign</li>
+
+    </div>
+
+    <div class="conatainer">
+
+    <h4>🧴 Toiletries & Essentials</h4>
+    <li>Soap / body wash</li>
+    <li>Shampoo / conditioner</li>
+    <li>Toothpaste</li>
+    <li>Skincare items</li>
+    <li>Henna / mehndi</li>
+
+    </div>
+
+    </div> <br> <br> <br>
+
+    <form id="myForm">
+        <input id="myInput" type="text" placeholder="Add your list here">
+        <button>Add list</button>
+    </form> <br> <br>
+
+
+    <ul id="myItem"></ul>
+
+    <script src="todolist.js"></script>
+
+</body>
+</html> 
