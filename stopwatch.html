@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        background-color:aquamarine
+    }
+    .wrapper{
+        background-image: url(Velura-Modern-Steel-Blue-Soft-Curvy-Waves-Wallpaper-Mural-710x383.jpg);
+        background-repeat: no-repeat;
+        width: 600px;
+        height: 400px;
+        background-size: cover;
+        margin-left: 500px;
+        margin-top: 150px;
+    }
+    h1{
+        text-align: center;
+        color: aqua;
+    }
+    #button-start{
+        background-color: bisque;
+        border-radius: 20px;
+        margin-left: 202px;
+    }
+    #button-stop{
+        background-color: cadetblue;
+        border-radius: 20px;
+    }
+    #button-reset{
+        background-color: cornflowerblue;
+        border-radius: 20px;
+    }
+    #seconds{
+       margin-left: 200px;
+    }
+    p{
+        font-size: 100px;
+    }
+    .buttons{
+        display: flexbox;
+        gap: 40px;
+    }
+
+</style>
+
+<body>
+    
+    <div class="wrapper">
+
+        <h1>Stopwatch</h1>
+
+        <p><span id="seconds">00</span>:<span id="milliseconds">00</span></p>
+
+      <div class="buttons">
+
+        <button id="button-start">Start</button>
+        <button id="button-stop">Stop</button>
+        <button id="button-reset">Reset</button>
+
+      </div>  
+
+    </div>
+
+    <script src="stopwatch.js"></script>
+
+</body>
+</html>
