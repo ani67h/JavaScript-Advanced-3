@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    
+    body{
+        background-image: url(https://play-lh.googleusercontent.com/CEtJ1x3dlwxg2MaJBtBSY6RUsdWmopzA6CueDjOQptRqKBmz44Cq-SETHtZMcoB8KA=w1024-h500);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #MyClockDisplay{
+        color:aquamarine;
+        height: 300px;
+        width: 450px;
+        align-content: center;
+        font-size: 80px;
+        border-radius: 30px;
+        margin-left: 520px;
+        margin-top: 150px;
+        box-shadow: 0 0 10px beige;
+        width: fit-content;
+        padding: 20px;
+        font-family: cursive;
+        background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/885/497/small_2x/mountain-desert-line-art-print-wallpaper-design-for-cover-background-abstract-contemporary-aesthetic-backgrounds-landscapes-illustrations-vector.jpg);
+    }
+    #MyDate{
+        font-family: cursive;
+        font-size: 80px;
+        text-align: center;
+        color: cadetblue;
+    }
+
+</style>
+
+<body>
+
+    <p id="MyDate" onload="showTime()"></p>
+
+    <p id="MyClockDisplay" onload="showTime()"></p>
+
+
+    <script src="todaycalendar.js"></script>
+
+</body>
+</html>
