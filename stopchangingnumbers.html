@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Changing Numbers</title>
+</head>
+
+<style>
+    label{
+        text-align: center;
+        width: 100px;
+        height: 50px;
+        border: 2px solid blueviolet;
+        padding: 6px;   
+        font-size: 40px;
+        border-radius: 100px;
+        margin-left: 600px;
+    }
+    .content{
+        display: flex;
+        gap: 30px;
+    }
+    button{
+        width: 100px;
+        height: 50px;
+    }
+</style>
+
+<body>
+
+    <div>
+
+        <h2 id="heading">Click on the button to shuffle and click it again to stop. But, the challenge here is you need to click the button on even numbers while shuffling. Otherwise, it won't stop.</h2> <br> <br> <br> <br> <br>
+        
+        <div class="content">
+        
+        <label id="numlabel"></label>
+        <button onclick="randonum()">Start or Stop</button>
+
+        </div>
+
+    </div>
+
+    <script src="stopchangingnumbers.js"></script>
+    
+</body>
+</html>
